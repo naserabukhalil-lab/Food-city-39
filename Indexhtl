@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Египетские Фрукты Оптом Паллетами — Москва, Фуд Сити Склад 1/39</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            green: '#2e7d32',
+                            darkgreen: '#1b5e20',
+                            lightgreen: '#e8f5e9',
+                            orange: '#f57c00',
+                            darkorange: '#e65100',
+                            accent: '#81c784'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8faf9; }
+        .pattern-bg {
+            background-color: #1b5e20;
+            background-image: radial-gradient(#2e7d32 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .modal-backdrop {
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(4px);
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <!-- Верхний новостной баннер -->
+    <div class="bg-brand-darkgreen text-white text-xs sm:text-sm py-2 px-4 text-center font-medium">
+        <div class="container mx-auto flex justify-between items-center">
+            <span class="truncate flex items-center gap-2">
+                <svg class="w-4 h-4 text-amber-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 100-2H6.414c-.2 0-.305-.24-.164-.382l.707-.707H16a1 1 0 00.949-.684l2-6A1 1 0 0018 3H5.21l-.294-1.176A1 1 0 004 1H3z"></path></svg>
+                Прямые поставки из Египта: свежая партия мандаринов и гранатов на складе 1/39 в «Фуд Сити»!
+            </span>
+            <div class="flex items-center gap-4 shrink-0">
+                <a href="tel:+79161029501" class="font-extrabold text-amber-300 hover:text-white transition">+7 (916) 102-95-01</a>
+                <a href="#telegram" class="underline hover:text-amber-300 hidden sm:inline text-xs">Telegram-канал</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Шапка сайта (Header) -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur shadow-sm border-b border-slate-100">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <!-- Логотип -->
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-green to-brand-orange flex items-center justify-center text-white font-black text-xl shadow-md">
+                    EG
+                </div>
+                <div>
+                    <span class="font-extrabold text-lg sm:text-xl text-slate-900 leading-none block">Египетские Фрукты<span class="text-brand-orange"> Оптом</span></span>
+                    <span class="text-xs text-slate-500 font-semibold block">Москва • Оптовый рынок «Фуд Сити» • Склад 1/39</span>
+                </div>
+            </a>
+
+            <!-- Навигация -->
+            <nav class="hidden lg:flex items-center gap-6 font-semibold text-sm text-slate-600">
+                <a href="#catalog" class="hover:text-brand-green transition">Каталог продукции</a>
+                <a href="#regions" class="hover:text-brand-green transition">Региональным покупателям</a>
+                <a href="#calculator" class="hover:text-brand-green transition">Паллетный калькулятор</a>
+                <a href="#telegram" class="hover:text-brand-green transition">Прайс в Telegram</a>
+                <a href="#contacts" class="hover:text-brand-green transition">Склад и контакты</a>
+            </nav>
+
+            <!-- Кнопки управления и связи -->
+            <div class="flex items-center gap-2">
+                <button onclick="toggleAdminModal()" class="px-3 py-2 text-xs font-bold text-slate-700 bg-amber-100 hover:bg-amber-200 border border-amber-300 rounded-lg transition flex items-center gap-1.5 shadow-sm">
+                    <svg class="w-4 h-4 text-amber-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+                    <span>Управление</span>
+                </button>
+                <a href="tel:+79161029501" class="bg-brand-green hover:bg-brand-darkgreen text-white text-xs sm:text-sm font-bold px-3 sm:px-4 py-2 rounded-lg shadow transition flex items-center gap-1">
+                    <span>Позвонить</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Первый экран (Hero) -->
+    <section class="relative pattern-bg text-white py-12 md:py-20 overflow-hidden">
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-7">
+                    <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur border border-white/20 px-3 py-1.5 rounded-full text-xs font-bold text-amber-300 mb-4">
+                        📍 Москва, Оптовый рынок «Фуд Сити», Склад № 1/39
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-4">
+                        Свежие египетские фрукты <span class="text-amber-400">паллетами</span> в Москве
+                    </h1>
+                    <p class="text-slate-200 text-sm sm:text-base mb-8 max-w-xl leading-relaxed">
+                        Прямой импорт из Египта: Гранат, Мандарины, Лимоны, Грейпфруты и Апельсины. Быстрая отгрузка вилочным погрузчиком (каром) для покупателей из Москвы и регионов РФ.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <a href="https://wa.me/79161029501" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3.5 rounded-xl shadow-lg transition text-center flex items-center justify-center gap-2">
+                            <span>💬 Заказать через WhatsApp</span>
+                        </a>
+                        <a href="https://t.me/79161029501" target="_blank" class="bg-sky-500 hover:bg-sky-600 text-white font-bold px-6 py-3.5 rounded-xl shadow-lg transition text-center flex items-center justify-center gap-2">
+                            <span>✈️ Написать в Telegram</span>
+                        </a>
+                    </div>
+
+                    <!-- Быстрые преимущества -->
+                    <div class="grid grid-cols-3 gap-4 mt-10 pt-8 border-t border-white/10 text-center sm:text-left">
+                        <div>
+                            <div class="text-xl sm:text-2xl font-black text-amber-400">100%</div>
+                            <div class="text-xs text-slate-300">Качество Египет</div>
+                        </div>
+                        <div>
+                            <div class="text-xl sm:text-2xl font-black text-amber-400">Склад 1/39</div>
+                            <div class="text-xs text-slate-300">Фуд Сити Москва</div>
+                        </div>
+                        <div>
+                            <div class="text-xl sm:text-2xl font-black text-amber-400">Паллеты</div>
+                            <div class="text-xs text-slate-300">Усиленная упаковка</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Быстрое бронирование -->
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="bg-white p-6 rounded-2xl text-slate-800 w-full max-w-md shadow-2xl">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-bold uppercase tracking-wider text-brand-green bg-brand-lightgreen px-2.5 py-1 rounded-md">Быстрое бронирование</span>
+                            <span class="text-xs text-slate-500 font-semibold">Склад 1/39</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Забронировать партию</h3>
+                        <p class="text-xs text-slate-600 mb-4">Телефон склада: <strong class="text-brand-green">+7 (916) 102-95-01</strong></p>
+                        
+                        <form onsubmit="handleQuickOrder(event)" class="space-y-3">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Продукция</label>
+                                <select id="heroSelectProduct" class="w-full text-sm p-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-green focus:outline-none font-semibold">
+                                    <option value="Египетский гранат">Египетский гранат (Wonderful)</option>
+                                    <option value="Египетские мандарины">Египетские мандарины (Клементины)</option>
+                                    <option value="Египетские лимоны">Египетские лимоны (Eureka)</option>
+                                    <option value="Египетские грейпфруты">Египетские грейпфруты (Star Ruby)</option>
+                                    <option value="Египетские апельсины">Египетские апельсины (Navel / Valencia)</option>
+                                </select>
+                            </div>
+                            <div class="grid grid-cols-2 gap-2">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Кол-во паллет</label>
+                                    <input type="number" id="heroPalletQty" min="1" value="2" class="w-full text-sm p-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-green focus:outline-none font-bold">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Город / Регион</label>
+                                    <input type="text" id="heroCity" placeholder="Москва / Регион" required class="w-full text-sm p-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-green focus:outline-none">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Ваш телефон</label>
+                                <input type="text" id="heroPhone" value="+7 (916) 102-95-01" required class="w-full text-sm p-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-green focus:outline-none font-bold">
+                            </div>
+                            <button type="submit" class="w-full bg-brand-green hover:bg-brand-darkgreen text-white font-bold py-3 rounded-lg shadow transition text-sm">
+                                Отправить заявку на Склад 1/39
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Каталог товаров -->
+    <section id="catalog" class="py-12 md:py-16 bg-slate-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="text-brand-green font-bold text-xs uppercase tracking-widest bg-brand-lightgreen px-3 py-1 rounded-full">Каталог продукции</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">Египетские Фрукты Паллетами</h2>
+                <p class="text-slate-600 text-sm mt-2">Актуальное наличие и цены на складе № 1/39 в «Фуд Сити» (Москва).</p>
+            </div>
+
+            <!-- Сетка товаров -->
+            <div id="productGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Товары рендерятся через JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел для покупателей из регионов -->
+    <section id="regions" class="py-12 bg-white border-y border-slate-200">
+        <div class="container mx-auto px-4">
+            <div class="bg-gradient-to-r from-brand-lightgreen to-emerald-50 rounded-2xl p-6 sm:p-10 border border-brand-green/20">
+                <div class="grid md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-7">
+                        <span class="bg-brand-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Специально для регионов</span>
+                        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-3 mb-4">
+                            Покупателям и оптовикам из регионов РФ
+                        </h2>
+                        <p class="text-slate-700 text-sm sm:text-base leading-relaxed mb-6">
+                            Мы берем на себя полную подготовку паллет к дальним перевозкам транспортными компаниями и частными фурами:
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-brand-green text-white flex items-center justify-center shrink-0 font-bold mt-1">1</div>
+                                <div>
+                                    <h4 class="font-bold text-slate-900 text-sm">Усиленная обмотка и защитные уголки</h4>
+                                    <p class="text-xs text-slate-600">Паллеты обматываются плотной стрейч-пленкой с зажимами и картонными защитными уголками, что предотвращает повреждение коробок при тряске.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-brand-green text-white flex items-center justify-center shrink-0 font-bold mt-1">2</div>
+                                <div>
+                                    <h4 class="font-bold text-slate-900 text-sm">Быстрая погрузка вилочным погрузчиком (каром)</h4>
+                                    <p class="text-xs text-slate-600">Погрузка всей машины занимает от 15 до 25 минут прямо у пандуса склада 1/39.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-brand-green text-white flex items-center justify-center shrink-0 font-bold mt-1">3</div>
+                                <div>
+                                    <h4 class="font-bold text-slate-900 text-sm">Предварительное бронирование партии</h4>
+                                    <p class="text-xs text-slate-600">Позвоните нам по телефону <a href="tel:+79161029501" class="font-bold text-brand-green">+7 (916) 102-95-01</a>, и мы зафиксируем цену и соберем товар к приезду вашей машины.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-5 bg-white p-6 rounded-xl shadow-md border border-slate-200">
+                        <h3 class="font-bold text-slate-900 text-lg mb-3 border-b pb-2">Порядок получения на Складе 1/39:</h3>
+                        <ol class="space-y-3 text-xs sm:text-sm text-slate-700 list-decimal list-inside">
+                            <li class="pb-2 border-b border-slate-100"><span class="font-bold text-slate-900">Согласование:</span> Подтверждение количества паллет по телефону <span class="font-bold">+7 (916) 102-95-01</span>.</li>
+                            <li class="pb-2 border-b border-slate-100"><span class="font-bold text-slate-900">Подготовка:</span> Формирование и стрейчевание паллет на складе.</li>
+                            <li class="pb-2 border-b border-slate-100"><span class="font-bold text-slate-900">Погрузка:</span> Погрузка погрузчиком в фуру или коммерческий транспорт.</li>
+                            <li><span class="font-bold text-slate-900">Документы:</span> Выдача полного комплекта сопроводительных документов.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Паллетный калькулятор -->
+    <section id="calculator" class="py-12 md:py-16 bg-slate-50">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="text-center mb-8">
+                <span class="text-brand-orange font-bold text-xs uppercase tracking-widest bg-orange-100 px-3 py-1 rounded-full">Расчет партии</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">Интерактивный Паллетный Калькулятор</h2>
+                <p class="text-slate-600 text-sm mt-1">Выберите фрукты и количество паллет для расчета коробок, общего веса и итоговой стоимости.</p>
+            </div>
+
+            <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-md border border-slate-200">
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-2">Выберите фрукт</label>
+                        <select id="calcProduct" onchange="calculateOrder()" class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl font-bold text-slate-800 focus:ring-2 focus:ring-brand-green focus:outline-none">
+                            <!-- Заполняется из JS -->
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-2">Количество паллет</label>
+                        <div class="flex items-center gap-2">
+                            <button onclick="changeCalcQty(-1)" class="w-12 h-12 bg-slate-100 hover:bg-slate-200 rounded-xl font-bold text-lg text-slate-700">-</button>
+                            <input type="number" id="calcQty" value="2" min="1" max="100" oninput="calculateOrder()" class="w-full text-center p-3 bg-slate-50 border border-slate-200 rounded-xl font-bold text-slate-800 text-lg focus:ring-2 focus:ring-brand-green focus:outline-none">
+                            <button onclick="changeCalcQty(1)" class="w-12 h-12 bg-slate-100 hover:bg-slate-200 rounded-xl font-bold text-lg text-slate-700">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Результаты калькулятора -->
+                <div class="mt-8 pt-6 border-t border-slate-100 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center bg-slate-50 p-4 rounded-xl">
+                    <div>
+                        <div class="text-xs text-slate-500 font-bold">Всего ящиков</div>
+                        <div id="calcTotalBoxes" class="text-lg font-black text-slate-900 mt-1">0 шт</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-500 font-bold">Чистый вес (нетто)</div>
+                        <div id="calcTotalWeight" class="text-lg font-black text-slate-900 mt-1">0 кг</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-500 font-bold">Цена за 1 паллету</div>
+                        <div id="calcPricePerPallet" class="text-lg font-black text-brand-green mt-1">0 ₽</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-500 font-bold">Итоговая стоимость</div>
+                        <div id="calcTotalPrice" class="text-xl font-black text-brand-orange mt-1">0 ₽</div>
+                    </div>
+                </div>
+
+                <div class="mt-6 flex flex-col sm:flex-row gap-3">
+                    <a id="calcOrderTelegramBtn" href="https://t.me/79161029501" target="_blank" class="w-full bg-sky-500 hover:bg-sky-600 text-white font-bold py-3.5 rounded-xl transition shadow text-center text-sm flex items-center justify-center gap-2">
+                        <span>Заказать этот расчет в Telegram</span>
+                    </a>
+                    <a id="calcOrderWhatsappBtn" href="https://wa.me/79161029501" target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-xl transition shadow text-center text-sm flex items-center justify-center gap-2">
+                        <span>Заказать в WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Имитация Telegram-канала -->
+    <section id="telegram" class="py-12 md:py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="grid lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-6">
+                    <span class="bg-sky-100 text-sky-700 font-bold text-xs uppercase tracking-widest px-3 py-1 rounded-full">
+                        Telegram-канал оптовиков
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-3 mb-4">
+                        Ежедневный прайс-лист и свежие контейнеры
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base mb-6 leading-relaxed">
+                        Подпишитесь на наш канал, чтобы получать утренние обновления цен, видео разгрузки паллет на Складе 1/39 в «Фуд Сити» и спецпредложения для оптовиков.
+                    </p>
+
+                    <div class="space-y-3 mb-6 text-sm text-slate-700 font-semibold">
+                        <div class="flex items-center gap-2">✓ Публикация цен на паллеты каждое утро</div>
+                        <div class="flex items-center gap-2">✓ Фото и видео обзор качества каждой партии</div>
+                        <div class="flex items-center gap-2">✓ Прямая связь с менеджером склада: +7 (916) 102-95-01</div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://t.me" target="_blank" class="bg-sky-500 hover:bg-sky-600 text-white font-bold px-6 py-3.5 rounded-xl shadow transition text-sm">
+                            Подписаться на Telegram-канал
+                        </a>
+                        <a href="https://t.me/79161029501" target="_blank" class="bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold px-6 py-3.5 rounded-xl transition text-sm">
+                            Прямой чат: +7 (916) 102-95-01
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Виджет поста -->
+                <div class="lg:col-span-6">
+                    <div class="bg-slate-100 border border-slate-300 rounded-2xl overflow-hidden shadow-lg">
+                        <div class="bg-sky-600 text-white p-3.5 flex items-center justify-between">
+                            <div class="font-bold text-sm">Египетские Фрукты Оптом | Фуд Сити 1/39</div>
+                            <span class="text-xs bg-sky-700 px-2 py-0.5 rounded font-mono">Прайс</span>
+                        </div>
+
+                        <div class="p-4 space-y-4 text-xs sm:text-sm bg-slate-50">
+                            <div class="bg-white p-4 rounded-xl shadow-sm space-y-2 border border-slate-200">
+                                <div class="flex justify-between items-center text-slate-400 text-[11px]">
+                                    <span class="font-bold text-brand-green">📌 Актуальный прайс-лист</span>
+                                    <span>Сегодня 08:30</span>
+                                </div>
+                                <p class="text-slate-800 font-bold">Доброе утро, уважаемые оптовики и закупщики! 🇪🇬🍊</p>
+                                <p class="text-slate-700">Цены на паллеты на Складе 1/39 («Фуд Сити»):</p>
+                                <ul class="space-y-1.5 text-slate-800 pl-2 border-l-2 border-brand-green font-semibold">
+                                    <li>🔴 <strong>Гранат Египет (Wonderful):</strong> от 145 000 ₽ / паллета</li>
+                                    <li>🍊 <strong>Мандарины Египет:</strong> от 110 000 ₽ / паллета</li>
+                                    <li>🍋 <strong>Лимоны Египет (Eureka):</strong> от 95 000 ₽ / паллета</li>
+                                    <li>🍊 <strong>Апельсины Египет (Navel):</strong> от 88 000 ₽ / паллета</li>
+                                </ul>
+                                <p class="text-slate-500 text-[11px] pt-1">Отгрузка и бронь по телефону: <strong>+7 (916) 102-95-01</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Склад и контакты -->
+    <section id="contacts" class="py-12 md:py-16 bg-slate-900 text-white">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="grid md:grid-cols-12 gap-8">
+                <div class="md:col-span-6">
+                    <span class="text-amber-400 font-bold text-xs uppercase tracking-widest">Контакты и адрес</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold mt-2 mb-6">Склад оптовой продажи в Москве</h2>
+                    
+                    <div class="space-y-4 text-sm text-slate-300">
+                        <div>
+                            <strong class="text-white block mb-1 text-base">Точный адрес склада:</strong>
+                            Россия, Москва, Оптово-розничный продовольственный центр «Фуд Сити» (Food City), <span class="text-amber-300 font-bold">Склад № 1/39</span>.
+                        </div>
+
+                        <div>
+                            <strong class="text-white block mb-1">Режим работы склада и погрузки:</strong>
+                            Ежедневно и круглосуточно по предварительному согласованию.
+                        </div>
+
+                        <div>
+                            <strong class="text-white block mb-1">Телефон / WhatsApp / Telegram:</strong>
+                            <a href="tel:+79161029501" class="hover:text-amber-300 font-extrabold text-2xl text-white block mt-1 tracking-wider">+7 (916) 102-95-01</a>
+                        </div>
+
+                        <div class="pt-2 flex flex-wrap gap-3">
+                            <a href="https://wa.me/79161029501" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-4 py-2.5 rounded-lg transition">
+                                WhatsApp
+                            </a>
+                            <a href="https://t.me/79161029501" target="_blank" class="bg-sky-500 hover:bg-sky-600 text-white text-xs font-bold px-4 py-2.5 rounded-lg transition">
+                                Telegram
+                            </a>
+                            <a href="tel:+79161029501" class="bg-brand-green hover:bg-brand-darkgreen text-white text-xs font-bold px-4 py-2.5 rounded-lg transition">
+                                Позвонить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:col-span-6 bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                    <h3 class="font-bold text-white text-lg mb-3">Информация для водителей и транспортных компаний:</h3>
+                    <p class="text-slate-300 text-xs sm:text-sm mb-4 leading-relaxed">
+                        Пожалуйста, сообщайте номер машины и имя водителя по телефону <strong class="text-amber-300">+7 (916) 102-95-01</strong> за 30-40 минут до въезда на территорию «Фуд Сити», чтобы мы подготовили пропуск и освободили погрузочную рампу у Склада 1/39.
+                    </p>
+                    <div class="space-y-2 text-xs text-slate-400">
+                        <div class="bg-slate-700/50 p-2.5 rounded border border-slate-600">
+                            <span class="text-amber-300 font-bold block mb-0.5">🚚 Для фур и еврофур</span>
+                            Удобный подъезд к пандусу склада 1/39 для погрузки каром.
+                        </div>
+                        <div class="bg-slate-700/50 p-2.5 rounded border border-slate-600">
+                            <span class="text-amber-300 font-bold block mb-0.5">🚐 Для малотоннажного транспорта (Газель / Валдай)</span>
+                            Быстрая загрузка без очередей.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал (Footer) -->
+    <footer class="bg-slate-950 text-slate-500 text-xs py-6">
+        <div class="container mx-auto px-4 text-center sm:flex sm:justify-between sm:text-left items-center gap-4">
+            <div>
+                © 2026 Египетские Фрукты Оптом — Москва, Оптовый рынок «Фуд Сити», Склад 1/39. Тел: +7 (916) 102-95-01.
+            </div>
+            <div class="mt-3 sm:mt-0 space-x-4">
+                <a href="#catalog" class="hover:text-slate-300">Каталог</a>
+                <a href="#telegram" class="hover:text-slate-300">Telegram</a>
+                <button onclick="toggleAdminModal()" class="hover:text-amber-400 text-amber-300 underline font-bold">Панель управления</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Панель управления (ADMIN MODAL) -->
+    <div id="adminModal" class="fixed inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-3xl w-full p-6 shadow-2xl max-h-[90vh] overflow-y-auto">
+            <div class="flex justify-between items-center pb-4 border-b border-slate-100">
+                <div>
+                    <h3 class="font-bold text-lg text-slate-900">Панель управления ценами и наличием</h3>
+                    <p class="text-xs text-slate-500">Изменения мгновенно обновятся на сайте и в калькуляторе</p>
+                </div>
+                <button onclick="toggleAdminModal()" class="text-slate-400 hover:text-slate-600 font-bold text-2xl">&times;</button>
+            </div>
+
+            <div id="adminProductList" class="py-4 space-y-4">
+                <!-- Заполняется JS -->
+            </div>
+
+            <div class="pt-4 border-t border-slate-100 flex justify-end gap-3">
+                <button onclick="toggleAdminModal()" class="px-4 py-2 text-xs font-bold text-slate-600 bg-slate-100 rounded-lg">Отмена</button>
+                <button onclick="saveAdminChanges()" class="px-5 py-2 text-xs font-bold text-white bg-brand-green hover:bg-brand-darkgreen rounded-lg shadow">Сохранить изменения</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Всплывающие уведомления -->
+    <div id="toast" class="fixed bottom-5 right-5 bg-slate-900 text-white px-5 py-3 rounded-xl shadow-2xl z-50 text-xs font-bold transition-all transform translate-y-20 opacity-0 pointer-events-none">
+        <span id="toastMsg">Уведомление</span>
+    </div>
+
+    <!-- Скрипты и логика -->
+    <script>
+        // Исходные данные товаров
+        let products = [
+            {
+                id: 1,
+                name: 'Египетский гранат',
+                variety: 'Wonderful (Вандерфул) / Отборный',
+                caliber: '8 / 10 / 12 (Крупный)',
+                boxWeight: '4.5 кг',
+                boxesPerPallet: 160,
+                netWeightKg: 720,
+                pricePerPallet: 145000,
+                status: 'in_stock',
+                description: 'Ярко-красные зерна, сочные, плотная кожура отлично переносит транспортировку в регионы.'
+            },
+            {
+                id: 2,
+                name: 'Египетские мандарины',
+                variety: 'Клементины / Сладкий фреш',
+                caliber: '1 - 2 - 3 (Средний и крупный)',
+                boxWeight: '8.0 кг',
+                boxesPerPallet: 100,
+                netWeightKg: 800,
+                pricePerPallet: 110000,
+                status: 'in_stock',
+                description: 'Легко чистятся, сладкие, высокий спрос в зимний сезон и перед праздниками.'
+            },
+            {
+                id: 3,
+                name: 'Египетские лимоны',
+                variety: 'Eureka (Юрика) / Адалия',
+                caliber: '80 / 100 / 113',
+                boxWeight: '15.0 кг',
+                boxesPerPallet: 80,
+                netWeightKg: 1200,
+                pricePerPallet: 95000,
+                status: 'in_stock',
+                description: 'Плотная шкура, ярко-желтый цвет, долгий срок хранения на складе и в дороге.'
+            },
+            {
+                id: 4,
+                name: 'Египетские грейпфруты',
+                variety: 'Star Ruby (Стар Руби красный)',
+                caliber: '36 / 40 / 48',
+                boxWeight: '15.0 кг',
+                boxesPerPallet: 80,
+                netWeightKg: 1200,
+                pricePerPallet: 105000,
+                status: 'expected',
+                description: 'Сочная красная мякоть, сладкие. Ожидается новый контейнер на склад 1/39.'
+            },
+            {
+                id: 5,
+                name: 'Египетские апельсины',
+                variety: 'Navel (Пупочный) / Valencia',
+                caliber: '48 / 56 / 64 / 72',
+                boxWeight: '15.0 кг',
+                boxesPerPallet: 80,
+                netWeightKg: 1200,
+                pricePerPallet: 88000,
+                status: 'in_stock',
+                description: 'Стабильное высокое качество, калиброванные фрукты для сетей и рынков.'
+            }
+        ];
+
+        // Рендер каталога
+        function renderProducts() {
+            const grid = document.getElementById('productGrid');
+            grid.innerHTML = '';
+
+            products.forEach(p => {
+                let statusBadge = '';
+                if(p.status === 'in_stock') {
+                    statusBadge = `<span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2.5 py-1 rounded-full">В наличии на складе 1/39</span>`;
+                } else if(p.status === 'expected') {
+                    statusBadge = `<span class="bg-amber-100 text-amber-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Ожидается контейнер</span>`;
+                } else {
+                    statusBadge = `<span class="bg-slate-200 text-slate-700 text-[11px] font-bold px-2.5 py-1 rounded-full">Забронировано</span>`;
+                }
+
+                const card = `
+                    <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-3 gap-2">
+                                <h3 class="font-extrabold text-slate-900 text-lg">${p.name}</h3>
+                                ${statusBadge}
+                            </div>
+                            <div class="text-xs text-brand-green font-bold mb-2">Сорт: ${p.variety}</div>
+                            <p class="text-xs text-slate-600 mb-4 leading-relaxed">${p.description}</p>
+
+                            <div class="bg-slate-50 p-3 rounded-xl space-y-1.5 text-xs text-slate-700 mb-4 border border-slate-100 font-semibold">
+                                <div class="flex justify-between">
+                                    <span class="text-slate-500">Калибр:</span>
+                                    <span class="font-bold text-slate-900">${p.caliber}</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-slate-500">Ящиков на паллете:</span>
+                                    <span class="font-bold text-slate-900">${p.boxesPerPallet} шт (${p.boxWeight})</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-slate-500">Чистый вес паллеты:</span>
+                                    <span class="font-bold text-slate-900">~${p.netWeightKg} кг</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="pt-3 border-t border-slate-100 flex justify-between items-end mb-4">
+                                <div>
+                                    <div class="text-[10px] text-slate-400 uppercase font-bold">Цена за паллету</div>
+                                    <div class="text-xl font-black text-slate-900">${p.pricePerPallet.toLocaleString()} ₽</div>
+                                </div>
+                                <div class="text-right text-[11px] text-slate-500 font-bold">
+                                    ~${Math.round(p.pricePerPallet / p.netWeightKg)} ₽/кг
+                                </div>
+                            </div>
+
+                            <button onclick="quickBookModal('${p.name}')" class="w-full bg-brand-green hover:bg-brand-darkgreen text-white font-bold py-2.5 rounded-xl text-xs transition">
+                                Забронировать паллету
+                            </button>
+                        </div>
+                    </div>
+                `;
+                grid.innerHTML += card;
+            });
+
+            populateCalcSelect();
+        }
+
+        function populateCalcSelect() {
+            const select = document.getElementById('calcProduct');
+            select.innerHTML = '';
+            products.forEach(p => {
+                select.innerHTML += `<option value="${p.id}">${p.name} — ${p.pricePerPallet.toLocaleString()} ₽ / паллета</option>`;
+            });
+            calculateOrder();
+        }
+
+        function calculateOrder() {
+            const pId = parseInt(document.getElementById('calcProduct').value);
+            const qty = parseInt(document.getElementById('calcQty').value) || 1;
+            const product = products.find(p => p.id === pId);
+
+            if(!product) return;
+
+            const totalBoxes = product.boxesPerPallet * qty;
+            const totalWeight = product.netWeightKg * qty;
+            const totalPrice = product.pricePerPallet * qty;
+
+            document.getElementById('calcTotalBoxes').innerText = `${totalBoxes.toLocaleString()} шт`;
+            document.getElementById('calcTotalWeight').innerText = totalWeight >= 1000 ? `${(totalWeight/1000).toFixed(2)} т` : `${totalWeight} кг`;
+            document.getElementById('calcPricePerPallet').innerText = `${product.pricePerPallet.toLocaleString()} ₽`;
+            document.getElementById('calcTotalPrice').innerText = `${totalPrice.toLocaleString()} ₽`;
+        }
+
+        function changeCalcQty(delta) {
+            const input = document.getElementById('calcQty');
+            let val = parseInt(input.value) || 1;
+            val += delta;
+            if(val < 1) val = 1;
+            input.value = val;
+            calculateOrder();
+        }
+
+        function handleQuickOrder(e) {
+            e.preventDefault();
+            showToast('Заявка отправлена! Менеджер Склада 1/39 свяжется с вами в течение 5 минут.');
+            e.target.reset();
+        }
+
+        function quickBookModal(productName) {
+            showToast(`Вы выбрали: ${productName}. Оформите заказ ниже или позвоните на +7 (916) 102-95-01`);
+            window.location.href = '#contacts';
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toastMsg').innerText = msg;
+            toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+            }, 3500);
+        }
+
+        // Логика модального окна админки
+        function toggleAdminModal() {
+            const modal = document.getElementById('adminModal');
+            modal.classList.toggle('hidden');
+            if(!modal.classList.contains('hidden')) {
+                renderAdminList();
+            }
+        }
+
+        function renderAdminList() {
+            const list = document.getElementById('adminProductList');
+            list.innerHTML = '';
+
+            products.forEach(p => {
+                list.innerHTML += `
+                    <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 grid sm:grid-cols-12 gap-3 items-center text-xs">
+                        <div class="sm:col-span-3 font-bold text-slate-900 text-sm">${p.name}</div>
+                        
+                        <div class="sm:col-span-3">
+                            <label class="block text-[10px] font-bold text-slate-500 mb-1">Цена за паллету (₽)</label>
+                            <input type="number" id="adminPrice_${p.id}" value="${p.pricePerPallet}" class="w-full p-2 bg-white border border-slate-300 rounded font-bold text-slate-800">
+                        </div>
+
+                        <div class="sm:col-span-3">
+                            <label class="block text-[10px] font-bold text-slate-500 mb-1">Ящиков на паллете</label>
+                            <input type="number" id="adminBoxes_${p.id}" value="${p.boxesPerPallet}" class="w-full p-2 bg-white border border-slate-300 rounded font-bold text-slate-800">
+                        </div>
+
+                        <div class="sm:col-span-3">
+                            <label class="block text-[10px] font-bold text-slate-500 mb-1">Статус наличия</label>
+                            <select id="adminStatus_${p.id}" class="w-full p-2 bg-white border border-slate-300 rounded font-bold">
+                                <option value="in_stock" ${p.status === 'in_stock' ? 'selected' : ''}>В наличии на складе</option>
+                                <option value="expected" ${p.status === 'expected' ? 'selected' : ''}>Ожидается контейнер</option>
+                                <option value="out_of_stock" ${p.status === 'out_of_stock' ? 'selected' : ''}>Забронировано</option>
+                            </select>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        function saveAdminChanges() {
+            products.forEach(p => {
+                const newPrice = parseInt(document.getElementById(`adminPrice_${p.id}`).value);
+                const newBoxes = parseInt(document.getElementById(`adminBoxes_${p.id}`).value);
+                const newStatus = document.getElementById(`adminStatus_${p.id}`).value;
+
+                if(!isNaN(newPrice)) p.pricePerPallet = newPrice;
+                if(!isNaN(newBoxes)) p.boxesPerPallet = newBoxes;
+                if(newStatus) p.status = newStatus;
+            });
+
+            renderProducts();
+            toggleAdminModal();
+            showToast('Цены и наличие успешно обновлены!');
+        }
+
+        window.onload = function() {
+            renderProducts();
+        };
+    </script>
+</body>
+</html>
